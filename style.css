@@ -1,0 +1,34 @@
+body
+{
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+  
+}
+
+.cardbox
+{
+  border: 6px solid rgb(128, 197, 224);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:30px;
+  background-color: rgba(176, 182, 182, 0.459);
+  
+}
+
+.preisboxalt :nth-child(2)
+{
+    font-size: 2rem;
+    text-decoration: line-through;
+}
+
+.preisboxneu :nth-child(2)
+{
+    font-size: 3rem;
+    color:rgb(102, 168, 199);
+    font-weight: bolder;
+    font-style: italic;
+    
+
+}
